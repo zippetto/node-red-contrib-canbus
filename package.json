@@ -1,0 +1,30 @@
+{
+  "name": "node-red-contrib-canbus",
+  "version": "1.0.1",
+  "description": "A set of node-red nodes used for socketcan utilities",
+  "dependencies": {
+    "socketcan": "^2.2.2",
+    "random-js": "^1.0.9"
+  },
+  "author": {
+    "name": "Rajesh Sola",
+    "email": "rajeshsola@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zippetto/node-red-contrib-canbus"
+  },
+  "keywords": [
+    "node-red",
+    "socketcan",
+    "canbus"
+  ],
+  "node-red": {
+    "nodes": {
+      "cansend": "canutils/cansend.js",
+      "candump": "canutils/candump.js",
+      "canconfig": "config/canconfig.js"
+    }
+  }
+}
