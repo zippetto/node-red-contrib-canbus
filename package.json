@@ -4,7 +4,7 @@
   "description": "A set of node-red nodes used for socketcan utilities",
   "dependencies": {
     "socketcan": "^2.2.2",
-    "random-js": "^1.0.9"
+    "random-js": "^1.0.8"
   },
   "author": {
     "name": "Rajesh Sola",
